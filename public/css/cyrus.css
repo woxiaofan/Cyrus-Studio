@@ -31,7 +31,7 @@
 .brush{font-family: myFont}
 .creative h4{width: 300px;margin: 30px auto;text-align: center; color: #909090}
 .creative p{line-height: 30px;margin-top: 30px; color: #909090;}
-.go_top{background: url("../img/arrow.png") no-repeat;width: 32px;height:32px;position: fixed; right:30px; bottom:30px;cursor: pointer;display: none}
+.go_top{background: url("../public/img/arrow.png") no-repeat;width: 32px;height:32px;position: fixed; right:30px; bottom:30px;cursor: pointer;display: none}
 .process_col_bor{overflow: hidden;margin-left: 5%;transform: scale(0);transition: all 0.5s}
 .pro_box_scale{ transform-origin: left bottom;transform: scale(1);transition: all 0.5s}
 .process_col_bor{width: 150px;height: 150px; border:1px solid #2aabd2;border-radius: 50%;line-height: 180px;text-align: center;float: left;margin:30px 20px;position: relative}
@@ -57,7 +57,7 @@
 .plane::before{content: "\f1d8";margin-right: 10px}
 .ins::before{content: "\f16d"}
 .fli::before{ content: "\f16e";}
-.transparent{background: url("../img/lab.jpg") no-repeat center fixed;height: 318px;background-size: cover;}
+.transparent{background: url("../public/img/lab.jpg") no-repeat center fixed;height: 318px;background-size: cover;}
 .transparent_mark{background: rgba(33, 171, 202, 0.3);height: 100%}
 .mySlide{transform: scale(0) rotate(0deg);transition: all 0.5s}
 .pics{overflow: hidden;transform: scale(0) rotate(0deg);transition: all 0.5s}
