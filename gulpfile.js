@@ -46,7 +46,7 @@ gulp.task('nodemon',function (nm) {
 gulp.task('browserSync',['nodemon'],function () {
     browserSync.init({
         proxy:{
-            target:'http://127.0.0.1:26909'
+            target:'http://127.0.0.1:26959'
         },
         files:['*'],
         port:9888,
